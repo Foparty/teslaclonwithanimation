@@ -1,0 +1,14 @@
+export { default as model3 } from "./model3.avif";
+export { default as model3sm } from "./model3sm.avif";
+export { default as modely } from "./modely.avif";
+export { default as modelysm } from "./modelysm.avif";
+export { default as models } from "./models.avif";
+export { default as modelssm } from "./modelssm.avif";
+export { default as modelx } from "./modelx.avif";
+export { default as modelxsm } from "./modelxsm.avif";
+export { default as solarpanels } from "./solarpanels.avif";
+export { default as solarpanelssm } from "./solarpanelssm.avif";
+export { default as solarroof } from "./solarroof.avif";
+export { default as solarroofsm } from "./solarroofsm.avif";
+export { default as accesories } from "./accesories.avif";
+export { default as accesoriessm } from "./accesoriessm.avif";

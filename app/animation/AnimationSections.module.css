@@ -1,0 +1,119 @@
+.content {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: -1;
+}
+
+.grid {
+	position: absolute;
+	width: calc(100% - 3rem);
+	display: grid;
+	height: 82%;
+}
+
+.titleblock {
+	padding-top: 4rem;
+	text-align: center;
+	font-family: var(--ff-roboto);
+	font-weight: 300;
+	color: currentColor;
+
+}
+
+.title {
+	font-size: clamp(2.4rem, 8vw - 1rem, 4rem);
+	font-weight: 500;
+}
+
+.subtitlelink {
+	text-decoration: underline;
+	text-underline-offset: 4px;
+	line-height: 1.2;
+}
+
+.buttonsblock {
+	align-self: flex-end;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: .6rem;
+}
+
+.button {
+	font-family: var(--ff-roboto);
+	font-weight: 400;
+	font-size: .9rem;
+	padding: .31rem 4.7rem;
+	border-radius: .2rem;
+}
+
+/* sections part */
+
+.sectionscontainer {
+
+	height: 100vh;
+	width: 100%;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+
+}
+
+.section {
+	position: relative;
+
+	width: 100%;
+	height: 100vh;
+	scroll-snap-align: start;
+	scroll-snap-stop: always;
+	z-index: -2;
+}
+
+.imgbig {
+	width: 100%;
+	height: 100%;
+	display: none;
+	object-fit: cover;
+	object-position: center center;
+	
+}
+
+.imgsm {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+	object-position: center 25%;
+
+}
+
+.video {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	object-position: center;
+}
+
+
+@media (width > 37.5rem) {
+	.imgsm {
+		display: none;
+	}
+
+	.imgbig {
+		display: block;
+	}
+
+	.buttonsblock {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
