@@ -222,7 +222,7 @@ select {
 	position: fixed;
 	z-index: 20;
 	top: 0;
-	right: 0;
+	right: -19rem;
 	height: 100vh;
 	height: 100dvh;
 	background-color: #fff;
@@ -233,8 +233,12 @@ select {
 	gap: .4rem;
 	overflow-y: scroll;
 	scroll-behavior: smooth;
+
 }
 
+.open .sidenav {
+	right: 0;
+}
 
 .visible {
 	animation: fodeIn 0.55s ease;
