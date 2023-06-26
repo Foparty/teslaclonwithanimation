@@ -288,6 +288,7 @@ const AnimationSections = () => {
           )}
           {data[0]?.imgbig && (
             <Image
+              priority={true}
               className={styles.imgbig}
               src={data[0].imgbig}
               alt={`tesla ${data[0].title} image`}
@@ -297,6 +298,7 @@ const AnimationSections = () => {
           )}
           {data[0]?.imgsm && (
             <Image
+              priority={true}
               className={styles.imgsm}
               src={data[0].imgsm}
               alt={`tesla ${data[0].title} image`}
@@ -325,6 +327,7 @@ const AnimationSections = () => {
           )}
           {data[1]?.imgbig && (
             <Image
+              priority={true}
               className={styles.imgbig}
               src={data[1].imgbig}
               alt={`tesla ${data[1].title} image`}
@@ -334,6 +337,7 @@ const AnimationSections = () => {
           )}
           {data[1]?.imgsm && (
             <Image
+              priority={true}
               className={styles.imgsm}
               src={data[1].imgsm}
               alt={`tesla ${data[1].title} image`}
@@ -362,6 +366,7 @@ const AnimationSections = () => {
           )}
           {data[2]?.imgbig && (
             <Image
+              priority={true}
               className={styles.imgbig}
               src={data[2].imgbig}
               alt={`tesla ${data[2].title} image`}
@@ -371,6 +376,7 @@ const AnimationSections = () => {
           )}
           {data[2]?.imgsm && (
             <Image
+              priority={true}
               className={styles.imgsm}
               src={data[2].imgsm}
               alt={`tesla ${data[2].title} image`}
@@ -399,6 +405,7 @@ const AnimationSections = () => {
           )}
           {data[3]?.imgbig && (
             <Image
+              priority={true}
               className={styles.imgbig}
               src={data[3].imgbig}
               alt={`tesla ${data[3].title} image`}
@@ -408,6 +415,7 @@ const AnimationSections = () => {
           )}
           {data[3]?.imgsm && (
             <Image
+              priority={true}
               className={styles.imgsm}
               src={data[3].imgsm}
               alt={`tesla ${data[3].title} image`}
@@ -436,6 +444,7 @@ const AnimationSections = () => {
           )}
           {data[4]?.imgbig && (
             <Image
+              priority={true}
               className={styles.imgbig}
               src={data[4].imgbig}
               alt={`tesla ${data[4].title} image`}
@@ -445,6 +454,7 @@ const AnimationSections = () => {
           )}
           {data[4]?.imgsm && (
             <Image
+              priority={true}
               className={styles.imgsm}
               src={data[4].imgsm}
               alt={`tesla ${data[4].title} image`}
@@ -473,6 +483,7 @@ const AnimationSections = () => {
           )}
           {data[5]?.imgbig && (
             <Image
+              priority={true}
               className={styles.imgbig}
               src={data[5].imgbig}
               alt={`tesla ${data[5].title} image`}
@@ -482,6 +493,7 @@ const AnimationSections = () => {
           )}
           {data[5]?.imgsm && (
             <Image
+              priority={true}
               className={styles.imgsm}
               src={data[5].imgsm}
               alt={`tesla ${data[5].title} image`}
@@ -510,6 +522,7 @@ const AnimationSections = () => {
           )}
           {data[6]?.imgbig && (
             <Image
+              priority={true}
               className={styles.imgbig}
               src={data[6].imgbig}
               alt={`tesla ${data[6].title} image`}
@@ -519,6 +532,7 @@ const AnimationSections = () => {
           )}
           {data[6]?.imgsm && (
             <Image
+              priority={true}
               className={styles.imgsm}
               src={data[6].imgsm}
               alt={`tesla ${data[6].title} image`}
@@ -547,6 +561,7 @@ const AnimationSections = () => {
           )}
           {data[7]?.imgbig && (
             <Image
+              priority={true}
               className={styles.imgbig}
               src={data[7].imgbig}
               alt={`tesla ${data[7].title} image`}
@@ -556,6 +571,7 @@ const AnimationSections = () => {
           )}
           {data[7]?.imgsm && (
             <Image
+              priority={true}
               className={styles.imgsm}
               src={data[7].imgsm}
               alt={`tesla ${data[7].title} image`}

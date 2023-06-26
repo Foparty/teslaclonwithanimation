@@ -23,6 +23,7 @@ const LandingSection = ({ data }) => {
       )}
       {data?.imgbig && (
         <Image
+          priority={true}
           className={styles.imgbig}
           src={data.imgbig}
           alt={`tesla ${data.title} image`}
@@ -31,6 +32,7 @@ const LandingSection = ({ data }) => {
       )}
       {data?.imgsm && (
         <Image
+          priority={true}
           className={styles.imgsm}
           src={data.imgsm}
           alt={`tesla ${data.title} image`}
